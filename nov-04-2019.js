@@ -1,0 +1,1 @@
+const registerToVote = (name, unregisteredVoters) => unregisteredVoters.filter(voter => !voter.includes(name))
