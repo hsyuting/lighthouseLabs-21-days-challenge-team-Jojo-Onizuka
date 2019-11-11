@@ -1,0 +1,1 @@
+const busTimes = buses => Object.keys(buses).reduce((acc, key)=> (acc[key] = buses[key].distance / buses[key].speed, acc),{});
