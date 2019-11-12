@@ -1,0 +1,1 @@
+const checkAir = (samples, threshold) => samples.filter(test => test ==='dirty').length / samples.length <= threshold ? "Clean":"Polluted";
