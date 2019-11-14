@@ -1,0 +1,1 @@
+const dynamicPricing = (numberOfPeople, distanceTraveled) => `$${((distanceTraveled * 0.25) + (numberOfPeople >= 30 ? 0.25:0) + 1).toFixed(2)}`;
